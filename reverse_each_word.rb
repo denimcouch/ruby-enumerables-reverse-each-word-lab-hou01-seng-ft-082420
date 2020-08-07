@@ -1,4 +1,3 @@
-require 'pry'
 
 def reverse_each_word(string)
   array = string.split
@@ -8,5 +7,3 @@ def reverse_each_word(string)
   end
   reverse_array
 end 
-
-binding.pry 
